@@ -1,0 +1,14 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "this is the part of our web dev course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kuldeep saini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

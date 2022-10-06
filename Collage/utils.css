@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+.flex{
+    display: flex;
+}
+
+.no-line{
+    text-decoration: none;
+}
+
+.text-center{
+    justify-content: center;
+
+}
+
+.nav-items:hover{
+    text-decoration: underline;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+    /* justify-items: center; */
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+
+}
+
+.main-font{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+

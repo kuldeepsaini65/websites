@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+    flex-wrap: wrap;
+}
+
+#nav-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    list-style: none;
+    padding: 3px 8px;
+    margin: 5px 0px;
+}
+
+.nav-links>a{
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif; 
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+    color: rgb(52, 199, 16);
+}
+
+.nav-links>a:hover{
+    
+    color: rgba(58, 187, 26, 0.699);
+    text-decoration: underline 4px;
+}
+
+#logo{
+    font-family: 'Montserrat',sans-serif; 
+    font-size: 1.2rem;
+    padding-top: 10px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center ;
+    cursor: pointer;
+    color: white;
+}
+
+button{
+    cursor:pointer;
+    border-radius: 16px;
+    padding: 7px;
+    transition: all 0.2s ease-in-out;
+    width: 100px;
+    font-size: 14px;
+    font-family: 'Bai Jamjuree', sans-serif;;
+}
+
+button:hover{
+    background-color: rgba(39, 201, 33, 0.87);
+    color: white;
+}
+
+section{
+    margin: 1.5rem 0px;
+    /* border: 2px solid red; */
+}
+
+section::before{
+    content: '';
+    background-image: url('/background1.jpg');
+    width: 100vw;
+    opacity: 0.6;
+    height:100vh;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    background-size: 2200px 1000px;
+}
+#main-moto{
+    width: 70vw;
+    padding: 2rem 40px;
+    transform:scale(23deg)
+}
+
+#main-moto>h1{
+    color: white;
+    font-size: 2.3rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-shadow: black 2px 12px 23px;
+
+    animation: slide-up 1.4s ease;
+
+}
+.para{
+    min-width: 200px;
+    padding: 11px 0px;
+    font-family: 'Open Sans';
+    text-align: justify;
+
+    animation: slide-up 2.3s ease;
+}
+
+@keyframes slide-up {
+    0%{
+        transform: translateY(200px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}

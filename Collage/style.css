@@ -1,0 +1,86 @@
+body {
+    margin: 0px 10vw;
+}
+
+#container1 {
+    /* border: 2px solid red; */
+    padding: auto;
+}
+
+.topnav {
+    padding: 0px 23px;
+    justify-content: space-between;
+}
+
+.nav-items {
+    padding: 1px 12px;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #bf4b27;
+
+}
+
+.logo {
+    margin: 0px 0px;
+    font-weight: 900;
+
+}
+
+li {
+    list-style: none;
+}
+
+
+.container2 {
+    height: 70vh;
+}
+
+.main-image {
+    /* flex-direction: column; */
+    width: 400px;
+    height: 400px;
+    padding: 69px 112px;
+
+    /* overflow: hidden; */
+}
+
+.main-content {
+    width: 50em;
+}
+
+.welcome {
+    margin: 4px 1px;
+}
+
+.container3{
+    /* border: 2px solid royalblue; */
+    padding: 34px 21px;
+    height: 50vh;
+    justify-content: space-between;
+}
+
+.sub-container{
+    padding: 0px 23px;
+    /* border: #bf4b27 2px solid; */
+    margin: 12px 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-heading1{
+    font-size: 2.5rem;
+}
+
+.book-image{
+    width: 300px;
+    padding: 34px;
+
+}
+
+.last-para{
+    padding: 2em;
+}
+
+footer{
+    text-align: center;
+}
